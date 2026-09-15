@@ -4,16 +4,16 @@ Companion Colab notebooks for tutorials at [yattas.com/tutorials](https://yattas
 
 ## Understanding Transformers — Build Your Own Transformer
 
-Companion to the [Understanding Transformers](https://yattas.com/tutorials/transformers/) series. The lessons teach concepts in the order that's easiest to *understand*; these notebooks are ordered the way you'd actually *build* a transformer, which isn't the same sequence.
+Companion to the [Understanding Transformers](https://yattas.com/tutorials/transformers/) series: [build-your-own-transformer.ipynb](build-your-own-transformer.ipynb). The lessons teach concepts in the order that's easiest to *understand*; this notebook builds a transformer in the order you'd actually write one, section by section within a single continuous notebook so state (tokenizer, weights, trained model) carries forward naturally.
 
-All notebooks run on Colab's free CPU tier — nothing in this series needs a GPU.
+Runs on Colab's free CPU tier — nothing in this series needs a GPU.
 
-1. [Tokenization & Vocabulary](01-tokenization-vocabulary.ipynb)
-2. [Embeddings & Positional Encoding](02-embeddings-positional-encoding.ipynb)
-3. [Self-Attention From Scratch](03-self-attention-from-scratch.ipynb)
-4. [Multi-Head Attention](04-multi-head-attention.ipynb)
-5. [Feedforward, Residuals & LayerNorm](05-feedforward-residuals-layernorm.ipynb)
-6. [Assembling One Transformer Block](06-assembling-a-transformer-block.ipynb)
-7. [Stacking Blocks & the Output Head](07-stacking-blocks-output-head.ipynb)
-8. [Training Loop](08-training-loop.ipynb)
-9. [Generation & Sampling](09-generation-sampling.ipynb)
+1. Tokenization & Vocabulary
+2. Embeddings & Positional Encoding
+3. Self-Attention From Scratch
+4. Multi-Head Attention
+5. Feedforward, Residuals & LayerNorm
+6. Assembling One Transformer Block
+7. Stacking Blocks & the Output Head
+8. Training Loop
+9. Generation & Sampling
