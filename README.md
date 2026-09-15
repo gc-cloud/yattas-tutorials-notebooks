@@ -4,7 +4,7 @@ Companion Colab notebooks for tutorials at [yattas.com/tutorials](https://yattas
 
 ## Understanding Transformers — Build Your Own Transformer
 
-Companion to [Lesson 17](https://yattas.com/tutorials/transformers/17-build-your-own-transformer/) of the [Understanding Transformers](https://yattas.com/tutorials/transformers/) series. The 17 lessons teach concepts in the order that's easiest to *understand*; these notebooks are ordered the way you'd actually *build* a transformer, which isn't the same sequence.
+Companion to the [Understanding Transformers](https://yattas.com/tutorials/transformers/) series. The lessons teach concepts in the order that's easiest to *understand*; these notebooks are ordered the way you'd actually *build* a transformer, which isn't the same sequence.
 
 All notebooks run on Colab's free CPU tier — nothing in this series needs a GPU.
 
@@ -17,5 +17,3 @@ All notebooks run on Colab's free CPU tier — nothing in this series needs a GP
 7. [Stacking Blocks & the Output Head](07-stacking-blocks-output-head.ipynb)
 8. [Training Loop](08-training-loop.ipynb)
 9. [Generation & Sampling](09-generation-sampling.ipynb)
-
-Content for each notebook is being written incrementally — see the individual files for current status.
