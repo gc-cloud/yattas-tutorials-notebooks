@@ -26,3 +26,15 @@ Runs on Colab's free CPU tier — nothing in this series needs a GPU.
 7. Stacking Blocks & the Output Head
 8. Training Loop
 9. Generation & Sampling
+
+## Agentic AI
+
+Companion to the [Agentic AI](https://yattas.com/tutorials/agentic-ai/overview/) lesson: [agentic-ai.ipynb](agentic-ai.ipynb). Builds a real ReAct-style tool-calling loop from scratch around Qwen2.5-3B-Instruct, a small open model that downloads and runs with no API key.
+
+Runs on Colab's free CPU tier — a free GPU runtime speeds up generation but isn't required.
+
+1. Loading a Small Open Model
+2. A Calculator Tool, Called By Hand
+3. The Reasoning Loop: Thought, Action, Observation
+4. A Second Tool the Model Can't Know Without Asking
+5. Multiple Tool Calls in One Question
