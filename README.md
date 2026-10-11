@@ -30,9 +30,9 @@ Runs on Colab's free CPU tier; a GPU is optional.
 
 ## Agentic AI
 
-Companion to the [Agentic AI](https://yattas.com/tutorials/agentic-ai/overview/) series: [agentic-ai.ipynb](agentic-ai.ipynb). Builds each part of an agent from scratch around Qwen2.5-3B-Instruct, a small open model that downloads and runs with no API key, in the order the lessons cover them, and ends with a small team of agents you can chat with.
+Companion to the [Agentic AI](https://yattas.com/tutorials/agentic-ai/overview/) series: [agentic-ai.ipynb](agentic-ai.ipynb). Builds each part of an agent around Qwen2.5-3B-Instruct, a small open model that downloads and runs with no API key, in the order the lessons cover them. Plain Python first, so every part is visible; the last section rebuilds the same team of agents in LangGraph. Both versions have a chat loop you can use.
 
-Runs on Colab's free CPU tier; a free GPU runtime speeds up generation and is worth enabling for Sections 7 and 9, which make several model calls per question.
+Runs on Colab's free CPU tier; a free GPU runtime speeds up generation and is worth enabling for Sections 7, 9, and 10, which make several model calls per question.
 
 1. Loading a Small Open Model
 2. A Calculator Tool, Called By Hand
@@ -42,4 +42,5 @@ Runs on Colab's free CPU tier; a free GPU runtime speeds up generation and is wo
 6. Structured Tool Calling
 7. Planning Before Acting
 8. Memory and Context (transcript growth, compaction, long-term notes)
-9. A Small Team of Agents (supervisor, specialists, audit log, and a chat loop)
+9. A Small Team of Agents (supervisor, specialists, audit log, chat loop)
+10. The Same Team in LangGraph
